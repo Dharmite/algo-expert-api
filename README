@@ -1,0 +1,39 @@
+# Algo Expert API Project
+
+This project utilizes the Algo Expert API to display a page of frontend questions along with the current status of each question. The project is developed using vanilla JavaScript, ensuring a lightweight and efficient implementation.
+
+## Features
+
+- Fetches frontend questions from the Algo Expert API
+- Displays the list of questions on a web page
+- Shows the current status of each question (e.g., completed, pending)
+
+## Technologies Used
+
+- Vanilla JavaScript
+- HTML
+- CSS
+
+## Getting Started
+
+To get started with this project, clone the repository and open the `index.html` file in your browser.
+
+## Usage
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/your-username/algo-expert-api.git
+    ```
+2. Navigate to the project directory:
+    ```
+    cd algo-expert-api
+    ```
+3. Open the `index.html` file in your browser to view the list of frontend questions and their statuses.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.
