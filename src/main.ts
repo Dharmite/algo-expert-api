@@ -108,11 +108,7 @@ const mapQuestionsData = (questionsData: Question[]): Record<string, Question[]>
 
 const mapSubmissionsData = (submissionsData: Submission[]): Record<string, Submission[]> => {
   return submissionsData.reduce((acc: Record<string, Submission[]>, submission: Submission) => {
-    if (!acc[submission.questionId]) {
-      acc[submission.questionId] = [submission];
-    } else {
-      acc[submission.questionId].push(submission);
-    }
+    acc[submission.questionId] = acc[submission.questionId] ? [...acc[submission.questionId], submission] : [submission];
     return acc;
   }, {});
 }
